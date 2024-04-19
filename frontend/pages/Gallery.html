@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="/frontend/css/style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <div class="wrapper">
+            <h1>LOGO<span class="color">.</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="/frontend/index.html">Home</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="/pages/about.html">About</a></li>
+                    <li><a href="/pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Categories -->
+    <div class="categories">
+        <ul>
+            <li><a class="category-btn" data-category="Fantasy">Fantasy</a></li>
+            <li><a class="category-btn" data-category="Nature">Nature</a></li>
+            <li><a class="category-btn" data-category="Illustator">Illustator</a></li>
+            <!-- Add more categories as needed -->
+        </ul>
+    </div>
+
+    <!-- Gallery -->
+    <div class="gallery">
+        <!-- Popular Images -->
+        <div class="popular-images">
+            <h3>Popular Images</h3>
+            <div class="image-container" id="popular-images">
+                <!-- Popular images will be added here -->
+            </div>
+        </div>
+
+        <!-- Dynamic Images -->
+        <div class="dynamic-images">
+
+            <div class="image-container" id="dynamic-images">
+                <!-- Dynamic images will be added here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/Gallery_scripts.js"></script>
+</body>
+</html>
